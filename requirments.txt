@@ -1,0 +1,4 @@
+streamlit
+google.genai
+google.genai.types
+google.genai.errors
