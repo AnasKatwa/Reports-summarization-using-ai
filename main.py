@@ -10,14 +10,6 @@ from google.genai.errors import ClientError
 st.set_page_config(page_title="Reports Summary", layout="centered")
 st.title("Reports Summary")
 st.markdown("This app uses the **Gemini API** to summarize")
-st.markdown('<span style="color: #6B7280; font-size: small;">'
-            '**المهارات المكتسبة في هذا المشروع:**<br>'
-            '• بناء وتصميم تطبيقات ويب تفاعلية بالكامل باستخدام مكتبة Streamlit. <br>'
-            '• الاستدعاء الناجح لنماذج Gemini (باستخدام google-genai SDK) لتنفيذ مهام التلخيص. <br>'
-            '• هندسة سريعة وفعالة للـ Prompt (Prompt Engineering) لضمان دقة التلخيص. <br>'
-            '• تطبيق تقنية التقاط الأخطاء المحددة (مثل ClientError) للتعامل مع مشاكل مفتاح API غير الصالح. <br>'
-            '• الهدف: زيادة استقرار التطبيق وتحسين تجربة المستخدم من خلال عرض رسائل خطأ واضحة وغير تقنية.'
-            '</span>', unsafe_allow_html=True)
 st.divider()
 
 # حقول الإدخال
